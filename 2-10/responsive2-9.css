@@ -1,0 +1,20 @@
+@media screen and (max-width:767px) {
+	main {
+		width:90%;
+		margin:50px auto;
+	}
+	.step {
+		float:none;
+		width:90%;
+		position:relative;
+		margin-bottom:20px;
+		margin:20px auto;
+	}
+	.step:last-child {
+		margin:20px auto;
+		margin-bottom:0px;
+	}
+	.step-text {
+		position:absolute;
+	}
+}
